@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>加我的 LINE</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fffafc;
+    padding: 40px;
+    color: #333;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #06c755;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: #05b14c;
+  }
+</style>
+</head>
+<body>
+  <h1>📩 加我的 LINE</h1>
+  <p>點下方按鈕馬上加我好友</p>
+  <a class="btn" href="https://line.me/ti/p/kOxxxx">立即加 LINE</a>
+
+  <script>
+    // 3 秒後自動跳轉到 LINE
+    setTimeout(function(){
+      window.location.href = "https://line.me/ti/p/MT44kyhx74";
+    }, 3000);
+  </script>
+</body>
+</html>
